@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculatrice</title>
+</head>
+<body>
+    <label for="ope">Veuillez choisir votre opérateur :</label>
+<select name="operateur" id="ope">
+    <option value="+">+</option>
+    <option value="-">-</option>
+    <option value="*">*</option>
+    <option value="/">/</option>
+    <option value="%">%</option>
+</select>
+<form action="">
+    <label for="nb1">Nombre 1 :</label>
+    <input type="number" name="nb1" id="nb1">
+    <label for="nb2">Nombre 2 :</label>
+    <input type="number" name="nb2" id="nb2">
+</form>
+<button onclick="calc()">Calculer</button>
+<p id="result"></p>
+<script src="calculatrice.js"></script>
+</body>
+</html>
